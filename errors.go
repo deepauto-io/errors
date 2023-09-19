@@ -25,6 +25,7 @@ const (
 	EUnauthorized        = "unauthorized"
 	EMethodNotAllowed    = "method not allowed"
 	ETooLarge            = "request too large"
+	ENonVIPNotAllowed    = "non-vip are not allowed"
 )
 
 // Error is the error struct of platform.
