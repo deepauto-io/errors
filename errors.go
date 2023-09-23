@@ -26,6 +26,7 @@ const (
 	EMethodNotAllowed    = "method not allowed"
 	ETooLarge            = "request too large"
 	ENonVIPNotAllowed    = "non-vip are not allowed"
+	EUpgradeRequired     = "upgrade required"
 )
 
 // Error is the error struct of platform.
