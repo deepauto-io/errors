@@ -27,6 +27,7 @@ const (
 	ETooLarge            = "request too large"
 	ENonVIPNotAllowed    = "non-vip are not allowed"
 	EUpgradeRequired     = "upgrade required"
+	EStatusLocked        = "status locked" // lock service status.
 )
 
 // Error is the error struct of platform.
