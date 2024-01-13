@@ -25,6 +25,7 @@ const (
 	EUnauthorized        = "unauthorized"
 	EMethodNotAllowed    = "method not allowed"
 	ETooLarge            = "request too large"
+	EPaymentRequired     = "payment required"
 	ENonVIPNotAllowed    = "non-vip are not allowed"
 	EUpgradeRequired     = "upgrade required"
 	EStatusLocked        = "status locked" // lock service status.
