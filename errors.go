@@ -19,16 +19,15 @@ const (
 	EInvalid             = "invalid"              // validation failed
 	EUnprocessableEntity = "unprocessable entity" // data type is correct, but out of range
 	EEmptyValue          = "empty value"
-	EUnavailable         = "unavailable"
+	EUnavailable         = "unavailable" // 503 service unavailable
 	EForbidden           = "forbidden"
 	ETooManyRequests     = "too many requests"
 	EUnauthorized        = "unauthorized"
 	EMethodNotAllowed    = "method not allowed"
 	ETooLarge            = "request too large"
 	EPaymentRequired     = "payment required"
-	ENonVIPNotAllowed    = "non-vip are not allowed"
 	EUpgradeRequired     = "upgrade required"
-	EStatusLocked        = "status locked" // lock service status.
+	EStatusLocked        = "status locked"
 )
 
 // Error is the error struct of platform.
